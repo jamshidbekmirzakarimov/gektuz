@@ -211,8 +211,15 @@
     flex-direction: column;
     margin-bottom: 50px;
   }
+
+  .contact-btn{
+  width: 100%;
+ 
+}
   
 }
+
+
 
 @media only screen and (max-width: 410px) {
   .form-box-end{
