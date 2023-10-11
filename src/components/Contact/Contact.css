@@ -196,6 +196,9 @@
 }
 
 @media only screen and (max-width: 710px){
+  .Contact-section {
+    background-size: contain;
+  }
   .contact-wrapper {
     display: flex;
     /* align-items: center; */
