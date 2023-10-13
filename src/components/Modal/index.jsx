@@ -15,7 +15,7 @@ const App = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       setShowModal(true);
-    }, 15000);
+    }, 30000);
 
     return () => clearInterval(timer);
   }, []);

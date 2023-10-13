@@ -26,28 +26,29 @@ const AboutUs = () => {
             <div className='AboutUs-box'>
               <div className='AboutUs-img-box'>
               <img className='AboutUs-img' src={Worker2} alt="" />
-              <h3 className='AboutUs-user-title'>Muxsinov Shaxzod</h3>
-               <p className='AboutUs-user-subtitle'>Marketolog</p>
+              <h3 className='AboutUs-user-title'>Shoxrux</h3>
+               <p className='AboutUs-user-subtitle'>Moliyachi</p>
+              </div>
+                <div className='AboutUs-img-box'>
+              <img className='AboutUs-img' src={Worker6} alt="" />
+              <h3 className='AboutUs-user-title'>Shaxzod Sharopov</h3>
+              <p className='AboutUs-user-subtitle'>Moliyachi</p>
               </div>
                <div className='AboutUs-img-box'>
               <img className='AboutUs-img' src={Worker3} alt="" />
-              <h3 className='AboutUs-user-title'>Shaxzod Sharopov</h3>
+              <h3 className='AboutUs-user-title'>Muxsinov Shaxzod</h3>
                <p className='AboutUs-user-subtitle'>Marketolog</p>
               </div>
-               <div className='AboutUs-img-box-girl'>
-              <img className='AboutUs-img' src={Worker4} alt="" />
-              <h3 className='AboutUs-user-title'>Dinara</h3>
-               <p className='AboutUs-user-subtitle'>Sotuv menejeri</p>
-              </div>
+         
               <div className='AboutUs-img-box'>
               <img className='AboutUs-img' src={Worker5} alt="" />
               <h3 className='AboutUs-user-title'>Yaxyoyev Sunnatilo</h3>
                <p className='AboutUs-user-subtitle'>Grafik Dizayner</p>
               </div>
-              <div className='AboutUs-img-box'>
-              <img className='AboutUs-img' src={Worker6} alt="" />
-              <h3 className='AboutUs-user-title'>Shoxrux</h3>
-              <p className='AboutUs-user-subtitle'>Moliyachi</p>
+              <div className='AboutUs-img-box-girl'>
+              <img className='AboutUs-img' src={Worker4} alt="" />
+              <h3 className='AboutUs-user-title'>Dinara</h3>
+               <p className='AboutUs-user-subtitle'>Sotuv menejeri</p>
               </div>
             </div>
          
