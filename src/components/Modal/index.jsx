@@ -20,6 +20,15 @@ const App = () => {
     return () => clearInterval(timer);
   }, []);
 
+  useEffect(() => {
+    if (showModal) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [showModal]);
+
+
   const closeModal = () => {
     setShowModal(false);
   };
