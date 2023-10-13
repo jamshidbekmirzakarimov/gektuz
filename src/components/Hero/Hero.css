@@ -51,6 +51,7 @@
 @media only screen and (max-width: 800px) {
   .hero-section{
     padding-top: 200px;
+    background-attachment: fixed;
   }
 
   .hero-section-title {
