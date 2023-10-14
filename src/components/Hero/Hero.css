@@ -1,6 +1,17 @@
 .hero-section {
   padding-top: 200px;
   padding-bottom: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-image: url(../../assets/images/background-img2.webp);
   background-position: center;
   background-repeat: no-repeat;
@@ -10,6 +21,8 @@
   /* height: 105vh; */
    background-color: rgba(0, 0, 0, 0.26);
   background-blend-mode: color;
+  filter: blur(5px);
+  z-index: -1;
 }
 
 .hero-section-title {
@@ -53,6 +66,8 @@
     padding-top: 200px;
     background-attachment: inherit;
   }
+
+  
 
   .hero-section-title {
     margin-top: 0;
