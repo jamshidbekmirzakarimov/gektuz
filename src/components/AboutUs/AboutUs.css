@@ -31,7 +31,7 @@
   width: 250px;
   border: 1px solid #fff;
   border-radius: 10px;
-  background-color: #FFCA2F;
+  background-color: #003f34;
 }
 
 .AboutUs-user-title{
@@ -39,6 +39,7 @@
   padding: 0px 5px 5px 5px;
   color: #fff;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 .AboutUs-user-subtitle{
@@ -52,7 +53,7 @@
   width: 200px;
   border: 1px solid #fff;
   border-radius: 10px;
-  background-color: #FFCA2F;
+  background-color: #003f34;
 }
 
 .AboutUs-img{
