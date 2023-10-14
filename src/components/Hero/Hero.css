@@ -21,7 +21,7 @@
   /* height: 105vh; */
    background-color: rgba(0, 0, 0, 0.349);
   background-blend-mode: color;
-  filter: blur(3px);
+  filter: blur(2px);
   z-index: -1;
 }
 
