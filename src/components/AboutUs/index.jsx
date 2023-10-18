@@ -26,7 +26,7 @@ const AboutUs = () => {
             <div className='AboutUs-box'>
               <div className='AboutUs-img-box'>
               <img className='AboutUs-img' src={Worker2} alt="" />
-              <h3 className='AboutUs-user-title'>Shoxrux</h3>
+              <h3 className='AboutUs-user-title'>Narzullayev Shoxrux</h3>
                <p className='AboutUs-user-subtitle'>Moliyachi</p>
               </div>
                 <div className='AboutUs-img-box'>
@@ -53,6 +53,9 @@ const AboutUs = () => {
             </div>
          
           </div>
+
+
+          
         </div>
       </section>
     </>

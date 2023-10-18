@@ -197,7 +197,7 @@
 
 @media only screen and (max-width: 710px){
   .Contact-section {
-    background-size: 100%;
+    background-size: cover;
   }
   .contact-wrapper {
     display: flex;
