@@ -5,6 +5,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
   background-color: rgba(0, 0, 0, 0.568);
   background-blend-mode: color;
   width: 100%;

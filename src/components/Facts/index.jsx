@@ -30,12 +30,6 @@ const Facts = () => {
             </li>
             <li className="Facts-section-item">
               <h3 className="Facts-section-item-title">
-              <CountUp end={36} enableScrollSpy />
-              </h3>
-              <p className="Facts-section-item-subtitle">{ languages[lang].fakts.fakts_item_title3}</p>
-            </li>
-            <li className="Facts-section-item">
-              <h3 className="Facts-section-item-title">
                 $
               <CountUp end={6.5} enableScrollSpy />
               mln
