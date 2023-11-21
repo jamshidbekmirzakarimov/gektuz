@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Reviews.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -26,6 +26,14 @@ const Reviews = () => {
   const openModal = () => {
     setShowModal(true);
   };
+
+   useEffect(() => {
+    if (showModal) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [showModal]);
 
   return (
     <>

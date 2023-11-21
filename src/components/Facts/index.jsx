@@ -18,7 +18,7 @@ const Facts = () => {
           <ul className="Facts-section-list">
             <li className="Facts-section-item">
               <h3 className="Facts-section-item-title">
-              1.5
+              3
               </h3>
               <p className="Facts-section-item-subtitle">{ languages[lang].fakts.fakts_item_title1}</p>
             </li>
@@ -36,7 +36,7 @@ const Facts = () => {
             </li> */}
             <li className="Facts-section-item">
               <h3 className="Facts-section-item-title">
-                $6.5 mln
+                10 mln$
               </h3>
               <p className="Facts-section-item-subtitle">{ languages[lang].fakts.fakts_item_title4}</p>
             </li>
