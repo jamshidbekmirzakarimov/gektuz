@@ -59,6 +59,20 @@
   color: #FFCA2F;
   margin: 0;
 }
+.modal-overlayvideo{
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-player{
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
 
 @media screen and (max-width: 600px) {
   .swipe-title {

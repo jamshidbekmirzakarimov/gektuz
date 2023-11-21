@@ -24,3 +24,13 @@
 .swiper-pagination-clickable .swiper-pagination-bullet{
   background-color: rgb(228, 218, 77) !important;
 }
+
+.form.-white .form-field{
+  display: none !important;
+}
+.form-field{
+  background-color: red !important;
+}
+.-input{
+  background-color: red !important;
+}

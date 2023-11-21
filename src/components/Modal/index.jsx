@@ -13,11 +13,18 @@ const App = () => {
   const [showCheckModal, setShowCheckModal] = useState(false);
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      setShowModal(true);
-    }, 30000);
+    const modalShown = localStorage.getItem("modalShown");
 
-    return () => clearInterval(timer);
+    if (!modalShown) {
+      const timer = setTimeout(() => {
+        setShowModal(true);
+        localStorage.setItem("modalShown", "true");
+      }, 50000);
+
+      return () => {
+        clearTimeout(timer);
+      };
+    }
   }, []);
 
   useEffect(() => {
@@ -75,6 +82,7 @@ Phone Number: ${telNumber}`,
 
   const handleCheckCloseModal = () => {
     setShowCheckModal(false);
+    closeModal();
   };
 
   return (

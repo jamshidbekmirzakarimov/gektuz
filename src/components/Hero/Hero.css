@@ -12,7 +12,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url(../../assets/images/background-img2.webp);
+  background-image: url(../../assets/images/background-img2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,7 +20,6 @@
   /* height: 105vh; */
    background-color: rgba(0, 0, 0, 0.349);
   background-blend-mode: color;
-  filter: blur(2px);
   z-index: -1;
 }
 

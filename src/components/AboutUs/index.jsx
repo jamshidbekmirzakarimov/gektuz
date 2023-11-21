@@ -2,12 +2,12 @@ import React from 'react'
 import "./AboutUs.css"
 import { languages } from "../../localization/languages";
 import { useLocalization } from "../../hooks/useLocalization";
-import Worker1 from "../../assets/images/worker1.webp"
-import Worker2 from "../../assets/images/worker2.webp"
-import Worker3 from "../../assets/images/worker3.webp"
-import Worker4 from "../../assets/images/worker4.webp"
-import Worker5 from "../../assets/images/worker5.webp"
-import Worker6 from "../../assets/images/worker6.JPG"
+import Worker1 from "../../assets/images/worker1.jpg"
+import Worker2 from "../../assets/images/worker2.jpg"
+import Worker3 from "../../assets/images/worker3.jpg"
+import Worker4 from "../../assets/images/worker4.jpg"
+import Worker5 from "../../assets/images/worker5.jpg"
+import Worker6 from "../../assets/images/worker6.jpg"
 const AboutUs = () => {
   const [lang, setLang] = useLocalization();
   return (

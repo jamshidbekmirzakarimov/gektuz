@@ -18,13 +18,13 @@ const Facts = () => {
           <ul className="Facts-section-list">
             <li className="Facts-section-item">
               <h3 className="Facts-section-item-title">
-                <CountUp end={1.5} enableScrollSpy />
+              1.5
               </h3>
               <p className="Facts-section-item-subtitle">{ languages[lang].fakts.fakts_item_title1}</p>
             </li>
             <li className="Facts-section-item">
               <h3 className="Facts-section-item-title">
-              <CountUp end={6} enableScrollSpy />
+              6
               </h3>
               <p className="Facts-section-item-subtitle">{ languages[lang].fakts.fakts_item_title2}</p>
             </li>
@@ -36,9 +36,7 @@ const Facts = () => {
             </li> */}
             <li className="Facts-section-item">
               <h3 className="Facts-section-item-title">
-                $
-              <CountUp end={6.5} enableScrollSpy />
-              mln
+                $6.5 mln
               </h3>
               <p className="Facts-section-item-subtitle">{ languages[lang].fakts.fakts_item_title4}</p>
             </li>
