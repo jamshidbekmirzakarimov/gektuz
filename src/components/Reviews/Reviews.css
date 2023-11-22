@@ -8,7 +8,7 @@
   background-color: #003f34;
 }
 .Revievs-wrapper {
-  width: 500px;
+  width: 100%;
 }
 
 .card-lis {
@@ -16,8 +16,18 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
-  height: 300px;
+  max-width: 100%;
+  min-height: 550px;
+}
+
+.card-iframe{
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.swipe-subtitle-author{
+  color: #fff;
 }
 
 .swipe-title {
@@ -48,7 +58,7 @@
   margin-bottom: 10px;
   color: #000;
   text-align: center;
-  color: #fff;
+  color: #FFCA2F;
 }
 
 .swipe-desc {
