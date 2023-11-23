@@ -51,7 +51,7 @@ export const languages = {
     },
 
     Sharhlar: {
-      sharh_title: "SHARHLAR",
+      sharh_title: "Mijozlarimiz fikrlari",
       sharh_subtitle: "«Bu ko'rib chiqish. Tahrirlash uchun bosing.»",
       sharh_name: "Lidiya Maksimovskaya",
       sharh_company_auth1: "Revent Architects rahbari:",
@@ -143,7 +143,7 @@ export const languages = {
         "Это текст. Вы можете перетащить его в любое место на странице. Нажмите один раз и выберите «Редактировать текст» или просто нажмите дважды, чтобы добавить свой текст и настроить шрифт. Здесь будет удачно смотреться текст о вашей компании и услугах.",
     },
     Sharhlar: {
-      sharh_title: "ОТЗЫВЫ",
+      sharh_title: "Мнения наших клиентов",
       sharh_subtitle: "«Это отзыв. Нажмите, чтобы отредактировать».",
       sharh_name: "Лидия Максимовская",
       sharh_company_auth1: "Руководитель компании Revent Architects:",
